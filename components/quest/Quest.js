@@ -18,7 +18,7 @@ const Quest = () => {
                     Quest
                 </div>
                 <div className="px-[10px]">
-                    <Image src={Caret} width="16" height="16" />
+                    <Image src={Caret} width="16" height="16" alt="" />
                 </div>
                 <div className="text-[16px] font-[500] text-[#7D7D7D]">
                     Botanical Treasure
@@ -26,7 +26,7 @@ const Quest = () => {
             </div>
             <div>
                 <div className="w-max">
-                    <Image src={Tree} />
+                    <Image src={Tree} alt="asd" />
                 </div>
             </div>
             <div className="flex items-center justify-between px-[32px] pt-[36px] pb-[24px]">
@@ -40,14 +40,19 @@ const Quest = () => {
                     <div className="px-[16px]">
                         <button className="flex items-center justify-center py-[13px] px-[30px] rounded-[50px] border-2 border-[#2C7D92] text-[#2C7D92] text-[16px] font-[700]">
                             <div className="pr-[10px]">
-                                <Image src={Edit} width="15" height="15" />
+                                <Image
+                                    src={Edit}
+                                    width="15"
+                                    height="15"
+                                    alt=""
+                                />
                             </div>
                             Edit
                         </button>
                     </div>
                     <div>
                         <div className="pl-[16px]">
-                            <Image src={Delet} width="18" height="20" />
+                            <Image src={Delet} width="18" height="20" alt="" />
                         </div>
                     </div>
                 </div>
@@ -55,25 +60,35 @@ const Quest = () => {
             <div className="flex items-center px-[32px]">
                 <div className="flex items-center justify-center pr-[26px] text-[#5A5A60] text-[16px] font-[700]">
                     <div className="pr-[6px] flex items-center justify-center">
-                        <Image src={Star} width="20" height="19" />
+                        <Image src={Star} width="20" height="19" alt="Star" />
                     </div>
                     4.8
                 </div>
                 <div className="flex items-center justify-center pr-[26px] text-[#5A5A60] text-[16px] font-[700]">
                     <div className="pr-[6px] flex items-center justify-center">
-                        <Image src={Currency} width="20" height="19" />
+                        <Image
+                            src={Currency}
+                            width="20"
+                            height="19"
+                            alt="Currency"
+                        />
                     </div>
                     Free
                 </div>
                 <div className="flex items-center justify-center pr-[26px] text-[#5A5A60] text-[16px] font-[700]">
                     <div className="pr-[6px] flex items-center justify-center">
-                        <Image src={Clock} width="20" height="19" />
+                        <Image src={Clock} width="20" height="19" alt="Clock" />
                     </div>
                     Timed Quest
                 </div>
                 <div className="flex items-center justify-center pr-[26px] text-[#5A5A60] text-[16px] font-[700]">
                     <div className="pr-[6px] flex items-center justify-center">
-                        <Image src={Location} width="20" height="19" />
+                        <Image
+                            src={Location}
+                            width="20"
+                            height="19"
+                            alt="Location"
+                        />
                     </div>
                     Singapore, Changi
                 </div>

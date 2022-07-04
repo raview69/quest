@@ -86,7 +86,12 @@ const QuestInfo = () => {
                         </div>
                         <div className="flex items-center pt-[40px]">
                             <div className="w-[109px] pr-[24px]">
-                                <Image src={Places} width="22" height="20" />
+                                <Image
+                                    src={Places}
+                                    width="22"
+                                    height="20"
+                                    alt=""
+                                />
                                 <p className="text-[14px] font-[400] text-[#7D7D7D]">
                                     Places
                                 </p>
@@ -94,7 +99,12 @@ const QuestInfo = () => {
                                 <p>&nbsp;</p>
                             </div>
                             <div className="w-[109px] pr-[24px]">
-                                <Image src={Task} width="22" height="20" />
+                                <Image
+                                    src={Task}
+                                    width="22"
+                                    height="20"
+                                    alt=""
+                                />
                                 <p className="text-[14px] font-[400] text-[#7D7D7D]">
                                     Tasks
                                 </p>
@@ -102,7 +112,12 @@ const QuestInfo = () => {
                                 <p>&nbsp;</p>
                             </div>
                             <div className="w-[109px] pr-[24px]">
-                                <Image src={Route} width="22" height="20" />
+                                <Image
+                                    src={Route}
+                                    width="22"
+                                    height="20"
+                                    alt=""
+                                />
                                 <p className="text-[14px] font-[400] text-[#7D7D7D]">
                                     Route
                                 </p>
@@ -112,7 +127,12 @@ const QuestInfo = () => {
                                 <p>&nbsp;</p>
                             </div>
                             <div className="w-[109px] pr-[24px]">
-                                <Image src={Time} width="22" height="20" />
+                                <Image
+                                    src={Time}
+                                    width="22"
+                                    height="20"
+                                    alt=""
+                                />
                                 <p className="text-[14px] font-[400] text-[#7D7D7D]">
                                     Est. Time
                                 </p>
@@ -122,7 +142,12 @@ const QuestInfo = () => {
                                 <p>&nbsp;</p>
                             </div>
                             <div className="">
-                                <Image src={Age} width="22" height="20" />
+                                <Image
+                                    src={Age}
+                                    width="22"
+                                    height="20"
+                                    alt=""
+                                />
                                 <p className="text-[14px] font-[400] text-[#7D7D7D]">
                                     Min. Age
                                 </p>

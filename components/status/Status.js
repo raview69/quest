@@ -15,17 +15,17 @@ const Status = () => {
                     </p>
                     <div className="flex items-center justify-between px-[24px] py-[15px] bg-white rounded-[24px]">
                         <p className="text-[14px] font-[400] ">Draft</p>
-                        <Image src={Li} width="12" height="6" />
+                        <Image src={Li} width="12" height="6" alt="" />
                     </div>
                 </div>
             </div>
             <div className="text-[18px] font-[700] flex items-center pt-[43px]">
-                <Image src={Logouts} width="18" height="20" />
+                <Image src={Logouts} width="18" height="20" alt="" />
                 <h4 className="pl-[10px]">Recent User Join</h4>
             </div>
             <div className="pt-[24px]">
                 <div className="flex items-center bg-[#F7F8FA] rounded-[24px] p-[20px]">
-                    <Image src={Person1} width="50" height="50" />
+                    <Image src={Person1} width="50" height="50" alt="" />
                     <div className="pl-[20px]">
                         <h4 className="text-[14px] font-[700] text-[#7D7D7D]">
                             Lee_JiEun
@@ -41,7 +41,7 @@ const Status = () => {
             </div>
             <div className="pt-[12px]">
                 <div className="flex items-center bg-[#F7F8FA] rounded-[24px] p-[20px]">
-                    <Image src={Person2} width="50" height="50" />
+                    <Image src={Person2} width="50" height="50" alt="" />
                     <div className="pl-[20px]">
                         <h4 className="text-[14px] font-[700] text-[#7D7D7D]">
                             Dennies_2
@@ -57,7 +57,7 @@ const Status = () => {
             </div>
             <div className="pt-[12px]">
                 <div className="flex items-center bg-[#F7F8FA] rounded-[24px] p-[20px]">
-                    <Image src={Person3} width="50" height="50" />
+                    <Image src={Person3} width="50" height="50" alt="" />
                     <div className="pl-[20px]">
                         <h4 className="text-[14px] font-[700] text-[#7D7D7D]">
                             Amanda_

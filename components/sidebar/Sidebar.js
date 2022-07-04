@@ -1,4 +1,3 @@
-import useWindowDimensions from '../hooks/WindowDimension'
 import Image from 'next/image'
 import Logo from '../img/logoquesteon.svg'
 import Smile from '../img/smile.svg'
@@ -13,11 +12,11 @@ const Sidebar = () => {
     return (
         <div className="w-[300px] bg-[#F7F8FA] h-[1024px]">
             <div className="py-[24px] flex items-center justify-center border-b-2">
-                <Image src={Logo} width="117" height="32" />
+                <Image src={Logo} width="117" height="32" alt="" />
             </div>
             <div className="py-[40px] flex items-center justify-center ">
                 <div className="text-center">
-                    <Image src={Smile} width="100px" height="100px" />
+                    <Image src={Smile} width="100px" height="100px" alt="" />
                     <h4 className="text-[18px] font-[700] pt-[24px]">
                         NEA Singapore
                     </h4>
@@ -34,6 +33,7 @@ const Sidebar = () => {
                             width="20"
                             height="20"
                             className=""
+                            alt=""
                         />
                         <p className="text-[16px] font-[500] text-[#7D7D7D] pl-[12px]">
                             My Quest
@@ -47,6 +47,7 @@ const Sidebar = () => {
                             width="20"
                             height="20"
                             className=""
+                            alt=""
                         />
                         <p className="text-[16px] font-[500] text-[#7D7D7D] pl-[12px]">
                             User Base
@@ -60,6 +61,7 @@ const Sidebar = () => {
                             width="20"
                             height="20"
                             className=""
+                            alt=""
                         />
                         <p className="text-[16px] font-[500] text-[#7D7D7D] pl-[12px]">
                             Earnings
@@ -73,6 +75,7 @@ const Sidebar = () => {
                             width="20"
                             height="20"
                             className=""
+                            alt=""
                         />
                         <p className="text-[16px] font-[500] text-[#7D7D7D] pl-[12px]">
                             Reports
@@ -86,6 +89,7 @@ const Sidebar = () => {
                             width="20"
                             height="20"
                             className=""
+                            alt=""
                         />
                         <p className="text-[16px] font-[500] text-[#7D7D7D] pl-[12px]">
                             Settings
@@ -101,6 +105,7 @@ const Sidebar = () => {
                             width="20"
                             height="20"
                             className=""
+                            alt=""
                         />
                         <p className="text-[16px] font-[500] text-[#F15A5B] pl-[12px]">
                             Sign out

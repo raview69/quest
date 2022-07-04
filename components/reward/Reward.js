@@ -9,7 +9,7 @@ const Reward = () => {
             <div className="">
                 <div className="text-[18px] font-[700]">Reward</div>
                 <div className="text-[18px] font-[700] mt-[16px] flex items-center w-[327px] bg-[#FFCF50] rounded-[24px] py-[20px] px-[24px] bg-opacity-[0.15] ">
-                    <Image src={Bird} width="80" height="80" />
+                    <Image src={Bird} width="80" height="80" alt="" />
                     <h4 className="text-[14px] font-[700] pl-[16px]">
                         STATUE OF SINGAPORE BOTANICAL GARDEN
                     </h4>
@@ -19,14 +19,14 @@ const Reward = () => {
                 </div>
                 <div className="flex items-center pt-[16px] text-[14px] font-[400] text-[#5A5A60]">
                     <div className="pr-[14px] flex items-center">
-                        <Image src={Li} width="4" height="4" />
+                        <Image src={Li} width="4" height="4" alt="" />
                     </div>
                     The quests given by Ant Emicheun seem to depend on class
                     somehow
                 </div>
                 <div className="flex items-center pt-[11px] text-[14px] font-[400] text-[#5A5A60] pb-[40px]">
                     <div className="pr-[14px] flex items-center">
-                        <Image src={Li} width="4" height="4" />
+                        <Image src={Li} width="4" height="4" alt="" />
                     </div>
                     Level 1 Iop and Sacrier got tofu under the microscope, while
                     a level 1 Cra got Arachnee
@@ -36,7 +36,7 @@ const Reward = () => {
                 </div>
                 <div className="flex pb-[40px] border-b-2">
                     <div className="pr-[46px]">
-                        <Image src={Treegate} width="300" height="300" />
+                        <Image src={Treegate} width="300" height="300" alt="" />
                     </div>
                     <div className="w-[348px] ">
                         <div className="text-[14px] font-[400] text-[#5A5A60]">
