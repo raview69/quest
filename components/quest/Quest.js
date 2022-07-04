@@ -8,6 +8,7 @@ import Currency from '../img/currency.svg'
 import Clock from '../img/clock.svg'
 import Location from '../img/location.svg'
 import QuestInfo from '../questInfo/QuestInfo'
+import Reward from '../reward/Reward'
 
 const Quest = () => {
     return (
@@ -78,6 +79,7 @@ const Quest = () => {
                 </div>
             </div>
             <QuestInfo />
+            <Reward />
         </div>
     )
 }

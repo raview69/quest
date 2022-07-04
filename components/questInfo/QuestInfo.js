@@ -84,7 +84,7 @@ const QuestInfo = () => {
                         <p className="text-[14px] font-[400] text-[#7D7D7D]">
                             Places
                         </p>
-                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <h4 className="text-[18px] font-[700]">2</h4>
                         <p>&nbsp;</p>
                     </div>
                     <div className="w-[109px] pr-[24px]">
@@ -92,7 +92,7 @@ const QuestInfo = () => {
                         <p className="text-[14px] font-[400] text-[#7D7D7D]">
                             Tasks
                         </p>
-                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <h4 className="text-[18px] font-[700]">4</h4>
                         <p>&nbsp;</p>
                     </div>
                     <div className="w-[109px] pr-[24px]">
@@ -100,7 +100,7 @@ const QuestInfo = () => {
                         <p className="text-[14px] font-[400] text-[#7D7D7D]">
                             Route
                         </p>
-                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <h4 className="text-[18px] font-[700]">3.5km</h4>
                         <p>&nbsp;</p>
                     </div>
                     <div className="w-[109px] pr-[24px]">
@@ -108,7 +108,7 @@ const QuestInfo = () => {
                         <p className="text-[14px] font-[400] text-[#7D7D7D]">
                             Est. Time
                         </p>
-                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <h4 className="text-[18px] font-[700]">1 Day</h4>
                         <p>&nbsp;</p>
                     </div>
                     <div className="">
@@ -116,7 +116,7 @@ const QuestInfo = () => {
                         <p className="text-[14px] font-[400] text-[#7D7D7D]">
                             Min. Age
                         </p>
-                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <h4 className="text-[18px] font-[700]">Child</h4>
                         <p className="text-[14px] font-[400]">0-12 years old</p>
                     </div>
                 </div>
