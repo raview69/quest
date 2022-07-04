@@ -1,7 +1,9 @@
+import QuestView from '../components/layout/QuestView'
+
 export default function Home() {
     return (
-        <div className="text-center text-3xl">
-            Hello so what wil we create Today ?
+        <div className="">
+            <QuestView />
         </div>
     )
 }
