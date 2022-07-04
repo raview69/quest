@@ -9,7 +9,7 @@ import Status from '../status/Status'
 
 const QuestInfo = () => {
     return (
-        <div className="flex py-[28px] px-[32px]">
+        <div className="flex py-[28px] px-[32px] bg-white">
             <div>
                 <div>
                     <div className="w-[787px]">

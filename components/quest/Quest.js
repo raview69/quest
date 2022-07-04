@@ -12,7 +12,7 @@ import Reward from '../reward/Reward'
 
 const Quest = () => {
     return (
-        <div>
+        <div className="bg-white">
             <div className="flex py-[28px] px-[32px]">
                 <div className="text-[16px] font-[500] text-[#2C7D92]">
                     Quest
