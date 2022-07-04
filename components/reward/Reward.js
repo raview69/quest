@@ -5,7 +5,7 @@ import Treegate from '../img/treegate.png'
 
 const Reward = () => {
     return (
-        <div className="px-[32px] pt-[17px] w-[787px]">
+        <div className="pt-[17px] w-[787px]">
             <div className="">
                 <div className="text-[18px] font-[700]">Reward</div>
                 <div className="text-[18px] font-[700] mt-[16px] flex items-center w-[327px] bg-[#FFCF50] rounded-[24px] py-[20px] px-[24px] bg-opacity-[0.15] ">
