@@ -79,7 +79,6 @@ const Quest = () => {
                 </div>
             </div>
             <QuestInfo />
-            <Reward />
         </div>
     )
 }
