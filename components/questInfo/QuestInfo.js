@@ -1,4 +1,9 @@
-import React from 'react'
+import Image from 'next/image'
+import Places from '../img/map-marker-check-outline.svg'
+import Task from '../img/clipboard-check-outline.svg'
+import Route from '../img/go-kart-track.svg'
+import Time from '../img/est_time.svg'
+import Age from '../img/user2.svg'
 
 const QuestInfo = () => {
     return (
@@ -46,8 +51,76 @@ const QuestInfo = () => {
                         nighttime. RingWarior
                     </p>
                 </div>
+                <div className="flex items-center pt-[24px]">
+                    <div className="pr-[8px]">
+                        <button className="text-[14px] font-[400] text-[#5A5A60] px-[20px] py-[9px] bg-[#F7F8FA] rounded-[40px] border-2 border-[#EDEDED]">
+                            botanical
+                        </button>
+                    </div>
+                    <div className="pr-[8px]">
+                        <button className="text-[14px] font-[400] text-[#5A5A60] px-[20px] py-[9px] bg-[#F7F8FA] rounded-[40px] border-2 border-[#EDEDED]">
+                            treasure
+                        </button>
+                    </div>
+                    <div className="pr-[8px]">
+                        <button className="text-[14px] font-[400] text-[#5A5A60] px-[20px] py-[9px] bg-[#F7F8FA] rounded-[40px] border-2 border-[#EDEDED]">
+                            singapore
+                        </button>
+                    </div>
+                    <div className="pr-[8px]">
+                        <button className="text-[14px] font-[400] text-[#5A5A60] px-[20px] py-[9px] bg-[#F7F8FA] rounded-[40px] border-2 border-[#EDEDED]">
+                            fun
+                        </button>
+                    </div>
+                    <div className="">
+                        <button className="text-[14px] font-[400] text-[#5A5A60] px-[20px] py-[9px] bg-[#F7F8FA] rounded-[40px] border-2 border-[#EDEDED]">
+                            beginner
+                        </button>
+                    </div>
+                </div>
+                <div className="flex items-center pt-[40px]">
+                    <div className="w-[109px] pr-[24px]">
+                        <Image src={Places} width="22" height="20" />
+                        <p className="text-[14px] font-[400] text-[#7D7D7D]">
+                            Places
+                        </p>
+                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div className="w-[109px] pr-[24px]">
+                        <Image src={Task} width="22" height="20" />
+                        <p className="text-[14px] font-[400] text-[#7D7D7D]">
+                            Tasks
+                        </p>
+                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div className="w-[109px] pr-[24px]">
+                        <Image src={Route} width="22" height="20" />
+                        <p className="text-[14px] font-[400] text-[#7D7D7D]">
+                            Route
+                        </p>
+                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div className="w-[109px] pr-[24px]">
+                        <Image src={Time} width="22" height="20" />
+                        <p className="text-[14px] font-[400] text-[#7D7D7D]">
+                            Est. Time
+                        </p>
+                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div className="">
+                        <Image src={Age} width="22" height="20" />
+                        <p className="text-[14px] font-[400] text-[#7D7D7D]">
+                            Min. Age
+                        </p>
+                        <h4 className="text-[24px] font-[700]">2</h4>
+                        <p className="text-[14px] font-[400]">0-12 years old</p>
+                    </div>
+                </div>
             </div>
-            <div></div>
         </div>
     )
 }
